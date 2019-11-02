@@ -1,0 +1,541 @@
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  overflow-x: hidden; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+a {
+  text-decoration: none; }
+
+.no-padding-left {
+  padding-left: 0 !important; }
+
+.no-padding-right {
+  padding-right: 0 !important; }
+
+.logo h1 {
+  color: #333333;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+  padding-left: 23px; }
+
+.logo span {
+  color: #8d81ac;
+  font-size: 24px; }
+
+.logo a {
+  display: flex;
+  align-items: center; }
+
+header {
+  padding: 32px 0; }
+  header .nav-bar a {
+    padding: 15px 45px;
+    color: #635c73;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+    border-radius: 45px; }
+    header .nav-bar a:hover {
+      background-color: #8d81ac;
+      color: #ffffff; }
+  header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+
+.welcome-wrapper {
+  background-image: url("../images/welcome.jpg");
+  text-align: center;
+  background-size: cover;
+  padding: 105px 0 0 0;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  font-family: Montserrat, sans-serif; }
+  .welcome-wrapper h1 {
+    color: #ffffff;
+    font-size: 82px;
+    font-weight: 700;
+    margin: 0; }
+  .welcome-wrapper h2 {
+    color: #8d81ac;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+    font-family: 'Lato', sans-serif; }
+  .welcome-wrapper p {
+    color: #848e97;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 500px; }
+  .welcome-wrapper .download {
+    margin-top: auto; }
+
+.btn-default {
+  padding: 25px 66px;
+  background-color: #8d81ac;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  border-radius: 45px; }
+
+.revol-editor {
+  text-align: center;
+  padding-bottom: 72px;
+  font-family: Montserrat, sans-serif; }
+  .revol-editor span {
+    padding-top: 45px;
+    color: #848e97;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    display: block; }
+  .revol-editor h2 {
+    color: #635c73;
+    font-size: 54px;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .revol-editor p {
+    opacity: 0.8;
+    color: #323232;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 21px;
+    font-weight: 400; }
+  .revol-editor .share {
+    display: flex;
+    justify-content: center; }
+
+.what-you-get {
+  background-color: #f4f4f4;
+  padding: 85px 0 0 0;
+  font-family: Montserrat, sans-serif; }
+  .what-you-get .container {
+    display: flex; }
+  .what-you-get .left-side {
+    width: 45%; }
+    .what-you-get .left-side .title-mobile {
+      display: none; }
+  .what-you-get .right-side {
+    width: 55%; }
+    .what-you-get .right-side h3 {
+      color: #8d81ac;
+      font-size: 48px;
+      font-weight: 700;
+      text-align: center;
+      margin-top: -25px; }
+    .what-you-get .right-side img {
+      margin-bottom: -80px; }
+  .what-you-get .description-item {
+    padding-left: 20px; }
+    .what-you-get .description-item h3 {
+      margin-top: 0;
+      color: #323232;
+      font-size: 16px;
+      font-weight: 600; }
+    .what-you-get .description-item p {
+      color: #848e97;
+      font-size: 14px;
+      font-weight: 400; }
+  .what-you-get .get-item {
+    display: flex;
+    margin-bottom: 15px; }
+    .what-you-get .get-item .icon-item {
+      min-width: 111px;
+      text-align: center; }
+
+.testimonials {
+  text-align: center;
+  padding-top: 85px;
+  font-family: Montserrat, sans-serif; }
+  .testimonials .container {
+    margin-bottom: 120px; }
+    .testimonials .container p > span {
+      color: #8d81ac !important; }
+    .testimonials .container .test-item {
+      display: flex !important;
+      justify-content: center;
+      align-items: center; }
+      .testimonials .container .test-item .test-desc p {
+        color: #333333;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 20px;
+        font-weight: 400; }
+      .testimonials .container .test-item .test-desc span {
+        color: #848e97;
+        font-weight: 400; }
+    .testimonials .container .name {
+      text-align: left;
+      margin-left: 15px; }
+      .testimonials .container .name p {
+        color: #635c73;
+        font-size: 24px;
+        font-weight: 700;
+        margin: 0; }
+      .testimonials .container .name span {
+        color: #8d81ac;
+        font-size: 16px;
+        font-weight: 400; }
+    .testimonials .container .slick-prev, .testimonials .container .slick-next {
+      z-index: 45;
+      top: 62%; }
+      .testimonials .container .slick-prev:before, .testimonials .container .slick-next:before {
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        color: #474747;
+        opacity: 0.5; }
+    .testimonials .container .slick-prev {
+      left: 110px; }
+      .testimonials .container .slick-prev:before {
+        content: '\f104'; }
+    .testimonials .container .slick-next {
+      right: 110px; }
+      .testimonials .container .slick-next:before {
+        content: '\f105'; }
+
+footer {
+  font-family: Montserrat, sans-serif; }
+  footer .footer h3 {
+    margin: 0;
+    color: #323232;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 28px; }
+  footer .footer p {
+    color: #848e97;
+    font-size: 14px;
+    font-weight: 400; }
+  footer .footer .container {
+    display: flex;
+    padding: 75px 0 103px 0;
+    border-bottom: 1px solid rgba(199, 199, 199, 0.2); }
+    footer .footer .container .footer-desc {
+      width: 33.3%;
+      padding: 0 50px 0 50px; }
+      footer .footer .container .footer-desc h2 {
+        color: #d3d1da;
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 45px; }
+      footer .footer .container .footer-desc h4 {
+        color: #323232;
+        font-size: 16px;
+        font-weight: 600; }
+      footer .footer .container .footer-desc .violet {
+        color: #8d81ac; }
+  footer .footer .release {
+    background-color: #f4f4f4;
+    color: #8d81ac;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    padding: 12px 8px 12px 24px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: Montserrat, sans-serif; }
+  footer .footer-item {
+    width: 25%; }
+    footer .footer-item .logo a {
+      display: flex; }
+    footer .footer-item a {
+      display: block;
+      color: #8d81ac;
+      font-size: 15px;
+      font-weight: 400; }
+    footer .footer-item .tel {
+      color: #3f3f3f;
+      font-size: 30px;
+      font-weight: 700; }
+    footer .footer-item address {
+      color: #323232;
+      font-size: 16px;
+      font-weight: 500; }
+    footer .footer-item .available {
+      color: #848e97;
+      font-size: 12px;
+      font-weight: 400;
+      text-transform: uppercase; }
+
+.subscribe {
+  background-color: #f4f4f4;
+  padding: 55px 0;
+  font-family: Montserrat, sans-serif; }
+  .subscribe ::-webkit-input-placeholder {
+    color: #c8cbcf;
+    font-size: 14px;
+    font-weight: 400; }
+  .subscribe ::-moz-placeholder {
+    color: #c8cbcf;
+    font-size: 14px;
+    font-weight: 400; }
+  .subscribe ::-ms-input-placeholder {
+    color: #c8cbcf;
+    font-size: 14px;
+    font-weight: 400; }
+  .subscribe .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .subscribe .container h2 {
+      color: #635c73;
+      font-size: 30px;
+      font-weight: 700; }
+    .subscribe .container form input {
+      background-color: #ffffff;
+      padding: 18px 200px 18px 30px;
+      border-radius: 25px;
+      outline: none;
+      border: 0;
+      margin-right: 20px; }
+
+.btn-subscribe {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+  background-color: #8d81ac;
+  text-transform: uppercase;
+  padding: 18px 35px;
+  border-radius: 25px;
+  font-family: Montserrat, sans-serif;
+  cursor: pointer; }
+
+.btn-social {
+  color: #000000;
+  font-family: Montserrat, sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  padding: 15px 100px 15px 25px;
+  border: none;
+  background-color: #f3f3f3;
+  cursor: pointer; }
+
+.socials {
+  display: flex;
+  justify-content: center; }
+  .socials .btn-item {
+    margin-right: 40px; }
+    .socials .btn-item .fab {
+      margin-right: 30px; }
+    .socials .btn-item p {
+      color: #848e97;
+      font-size: 14px;
+      font-weight: 400; }
+  .socials .btn-twitter {
+    background-color: #26a6d1;
+    color: #ffffff; }
+  .socials .btn-facebook {
+    background-color: #3b5998;
+    color: #ffffff; }
+
+.talking-about-fork {
+  background-image: url("../images/talking-about-fork.png");
+  text-align: center;
+  padding: 102px 0 82px 0;
+  background-size: cover;
+  font-family: Montserrat, sans-serif;
+  background-color: #4b3b4e; }
+  .talking-about-fork h2 {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 65px; }
+  .talking-about-fork:after {
+    content: '';
+    height: 1px;
+    width: 55%;
+    background-color: rgba(199, 199, 199, 0.2);
+    display: block;
+    margin: 0 auto; }
+  .talking-about-fork .about-fork-row {
+    display: flex;
+    margin-bottom: 100px;
+    align-items: center; }
+    .talking-about-fork .about-fork-row .about-fork-item {
+      width: 33.3%;
+      padding: 0 40px; }
+      .talking-about-fork .about-fork-row .about-fork-item div {
+        height: 50px; }
+      .talking-about-fork .about-fork-row .about-fork-item p {
+        color: #ffffff;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 0;
+        margin-top: 15px; }
+
+.fork-sub-pricing {
+  background-color: #4b3b4e;
+  background-image: url("../images/sub-pricing.png");
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  color: #ffffff;
+  padding: 0px 0 70px 0; }
+  .fork-sub-pricing h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 125px; }
+  .fork-sub-pricing .wrapper {
+    display: flex; }
+    .fork-sub-pricing .wrapper .pricing-item {
+      background-color: rgba(255, 255, 255, 0.11);
+      padding-bottom: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      min-height: 500px; }
+      .fork-sub-pricing .wrapper .pricing-item .title-pricing {
+        padding: 45px 0;
+        background-color: rgba(255, 255, 255, 0.06);
+        width: 100%; }
+        .fork-sub-pricing .wrapper .pricing-item .title-pricing h3 {
+          margin: 0;
+          font-size: 24px;
+          font-weight: 400;
+          text-transform: uppercase; }
+      .fork-sub-pricing .wrapper .pricing-item .price {
+        font-size: 60px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 0;
+        margin-top: 33px; }
+      .fork-sub-pricing .wrapper .pricing-item span {
+        opacity: 0.3;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase; }
+      .fork-sub-pricing .wrapper .pricing-item p {
+        font-size: 16px;
+        font-weight: 400; }
+      .fork-sub-pricing .wrapper .pricing-item .hr {
+        height: 5px;
+        width: 25%;
+        background-color: #8d81ac;
+        border: 0;
+        display: block;
+        margin: 0 auto;
+        margin-top: 35px;
+        margin-bottom: 35px; }
+      .fork-sub-pricing .wrapper .pricing-item .btn-purchase {
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: uppercase;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.15);
+        border-radius: 25px;
+        padding: 15px 35px;
+        border: 0; }
+    .fork-sub-pricing .wrapper .wrap {
+      margin-right: 1%;
+      width: 24%;
+      position: relative; }
+  .fork-sub-pricing .note {
+    color: rgba(162, 145, 165, 0.8);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 77px 120px 15px; }
+
+@media screen and (min-width: 992px) {
+  .fork-sub-pricing .fork-pricing .wrapper:hover {
+    width: 105%;
+    margin-left: -2.5%; }
+  .fork-sub-pricing .pricing-item:hover {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin-top: -35px;
+    background-color: rgba(0, 0, 0, 0.2); }
+    .fork-sub-pricing .pricing-item:hover .price {
+      font-size: 82px; }
+    .fork-sub-pricing .pricing-item:hover .btn-purchase {
+      margin-top: 90px; }
+    .fork-sub-pricing .pricing-item:hover .title-pricing {
+      background-color: rgba(0, 0, 0, 0.2);
+      padding-top: 65px; } }
+
+@media screen and (max-width: 991px) {
+  .btn-default {
+    padding: 25px; }
+  .welcome-wrapper {
+    background-image: url(../images/welcome-mobile.jpg); }
+    .welcome-wrapper h1 {
+      font-size: 60px; }
+  header .container {
+    display: block;
+    text-align: center; }
+  header .nav-bar a {
+    display: block; }
+  header .logo a {
+    justify-content: center; }
+  .logo a {
+    display: flex; }
+  .socials {
+    display: block; }
+    .socials .fab {
+      margin-right: 50px; }
+    .socials .btn-social {
+      padding: 15px 100px 15px 50px;
+      min-width: 322px; }
+  .talking-about-fork {
+    background-image: url(../images/talking-mobile.png); }
+    .talking-about-fork .about-fork-row {
+      display: block; }
+      .talking-about-fork .about-fork-row .about-fork-item {
+        margin: 0 auto;
+        margin-bottom: 50px;
+        width: 100%;
+        padding: 0; }
+  .fork-sub-pricing .note {
+    margin-left: 0;
+    margin-right: 0; }
+  .fork-sub-pricing .fork-pricing .wrapper {
+    display: block; }
+    .fork-sub-pricing .fork-pricing .wrapper .wrap {
+      margin: 0 auto;
+      margin-bottom: 12px;
+      width: 90%; }
+  .subscribe .container {
+    display: block;
+    text-align: center; }
+  .container {
+    margin-left: 20px;
+    margin-right: 20px; }
+  footer .footer-item {
+    width: 100%;
+    margin-bottom: 15px; }
+  footer .footer-desc {
+    width: 100% !important;
+    padding: 0 !important; }
+  .what-you-get .container {
+    display: block; }
+  .what-you-get .left-side {
+    width: 100%;
+    margin-bottom: 15px; }
+    .what-you-get .left-side .title-mobile {
+      display: block;
+      color: #8d81ac;
+      font-family: Montserrat, sans-serif;
+      font-size: 48px;
+      font-weight: 700;
+      text-align: center;
+      margin-top: 0; }
+  .what-you-get .right-side {
+    display: none; }
+  .subscribe .sub-form form {
+    display: flex; }
+    .subscribe .sub-form form input {
+      padding: 18px 30px; }
+  .revol-editor h2 {
+    font-size: 35px; }
+  footer .footer .container {
+    display: block; } }
